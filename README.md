@@ -1,4 +1,4 @@
-# SRPDemo
+# SRPDemo  ( the S in SOLID )
 
 SRP Says There is only one reason to change the class which is already designed OR the class should only have one resposibility 
 
@@ -314,3 +314,14 @@ internal class Program
     }
 }
 ```
+
+Few benefits here is if we need to change some code, we should be knowing where exactly we should go
+If we arrange the classes in a folder structure, then its really simple to identify the exact location of the class file which we want to modify
+
+easier to read the code
+
+easier to modify the code which is used in multiple places, in this case, if we need to add a message which should display at EndApplication, then the change is needed only in EndApplication , in old code, we need to add the same code in multiple places
+
+
+SRP talks about classes. 
+
